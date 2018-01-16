@@ -29,6 +29,8 @@ def sweep(inputFileName):
 			charCount = 1
 			invalidEntry = False
 			continue #Begins a new entry
+		elif(charCount == 13):
+			invalidEntry = True #Phone numbers too long
 		elif(cVal < ord('0') or cVal > ord('9')):
 			invalidEntry = True
 		entry += currentChar #Adding currentChar to the current entry
