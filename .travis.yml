@@ -4,4 +4,4 @@ python:
 	- "nightly"
 install: true
 script:
-	- py.test
+	- make test
