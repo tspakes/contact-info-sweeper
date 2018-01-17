@@ -16,3 +16,6 @@ emailaddress@example.com with any finite amount of letters
 and numbers, an "@", another finite amount of letters and
 numbers, a ".", and a final sequence of finite letters and
 numbers.
+
+White space before, in the middle of, or after phone numbers
+or email addresses is ignored, as well as new lines.
