@@ -1,8 +1,6 @@
 language: python
 python:
 	- "3.5"
-	- "nightly"
-install: true
 script:
 	- python3.5 phoneTestValid.py
         - python3.5 phoneTestInvalid.py
