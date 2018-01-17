@@ -2,8 +2,8 @@ language: python
 python:
 	- "3.5"
 script:
-	- python3.5 phoneTestValid.py
-        - python3.5 phoneTestInvalid.py
-        - python3.5 phoneTestLong.py
-        - python3.5 emailTestValid.py
-        - python3.5 emailTestInvalid.py
+	- python phoneTestValid.py
+        - python phoneTestInvalid.py
+        - python phoneTestLong.py
+        - python emailTestValid.py
+        - python emailTestInvalid.py
