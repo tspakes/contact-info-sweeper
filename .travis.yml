@@ -4,4 +4,8 @@ python:
 	- "nightly"
 install: true
 script:
-	- make test
+	- python3.5 phoneTestValid.py
+        - python3.5 phoneTestInvalid.py
+        - python3.5 phoneTestLong.py
+        - python3.5 emailTestValid.py
+        - python3.5 emailTestInvalid.py
