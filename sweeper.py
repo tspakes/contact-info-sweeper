@@ -70,8 +70,8 @@ def sweep(inputFileName):
 		outFile.write(entry)
 
 	f.close()	
-	outFile.write("\n")
+	#outFile.write("\n")
 	outFile.close()
 	return
 
-sweep("phoneNumbers.txt")
+sweep("phoneNumbersInvalid.txt")
