@@ -3,13 +3,13 @@ def sweep(inputFileName):
 	f = open(inputFileName, "r")
 	outFile = open("badEntries.txt", "w")
 	charCount = 1	
-	invalidEntry = False
-	letter = False
-	at = False # tracks if
-	period = False
-	dash = False
-	lastCharAt = False
-	lastCharPeriod = False
+	invalidEntry = False #Tracks if the entry is invalid
+	letter = False #Tracks if a letter has been found
+	at = False #Tracks if an '@' has been found
+	period = False #Tracks if a '.' has been found
+	dash = False #Tracks if a '-' has been found
+	lastCharAt = False #Previous char was an '@'
+	lastCharPeriod = False #Previous char was a '.'
 	entry = ""
 	currentChar = "Unset"
 	writtenTo = False
@@ -70,7 +70,6 @@ def sweep(inputFileName):
 		outFile.write(entry)
 
 	f.close()	
-	#outFile.write("\n")
 	outFile.close()
 	return
 
